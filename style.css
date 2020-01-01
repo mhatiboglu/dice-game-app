@@ -2,4 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("board.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.play_table {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+  font-size: 5vh;
+}
+
+.player_1_zone,
+.player_2_zone{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+.player_2_zone{     padding-left: 10vh;}
+.player_1_zone{     padding-right: 10vh;}
+
+
+
+
+.player_1_name,
+.player_1_result,
+.player_1_current,
+.player_2_name,
+.player_2_result,
+.player_2_current{
+  background-color: rgba(255, 255, 255, 0.452);
+}
+
+.btn {
+  font-size: 5vh;
+  width: 240px;
+}
+
+.footer_button {
+  display: flex;
+  flex-direction: column;
 }
