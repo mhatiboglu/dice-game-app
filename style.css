@@ -122,3 +122,10 @@ padding:20px 2px 20px 2px;
     background-color:red;
 }
 
+.final-score{
+    width: 20vh;
+    height: 3vh;
+    margin-bottom:10vh;
+    font-size: 3vh;
+    color:black;
+}
