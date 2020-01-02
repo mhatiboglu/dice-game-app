@@ -12,13 +12,13 @@
 
   <body>
     <main>
-      <button class="new_game_btn btn"><i class="fa fa-plus" aria-hidden="true"></i>
+      <button class="new_game_btn btn" id="new_game_btn"><i class="fa fa-plus" aria-hidden="true"></i>
 New Game</button>
       <div class="play_table">
         <div class="player_1_zone">
           <div class="player_1_name active">Player 1</div>
-          <div class="player_1_result">r1</div>
-          <div class="player_1_current">c1</div>
+          <div class="player_1_result">total</div>
+          <div class="player_1_current">current</div>
         </div>
 
         <img src="dice-5.png" alt="Dice" class="dice" id="dice-1" />
@@ -26,12 +26,11 @@ New Game</button>
 
         <div class="player_2_zone">
           <div class="player_2_name">Player 2</div>
-          <div class="player_2_result">r2</div>
-          <div class="player_2_current">c2</div>
+          <div class="player_2_result">total</div>
+          <div class="player_2_current">current</div>
         </div>
       </div>
       <div class="footer_button">
-<i class="fa fa-check" aria-hidden="true"></i>
         <button class="roll_btn btn" id="rollBtn"><i class="fa fa-refresh" aria-hidden="true"></i>
 Roll Dice</button>
         <button class="hold_btn btn" id="holdBtn"><i class="fa fa-archive" aria-hidden="true"></i>
