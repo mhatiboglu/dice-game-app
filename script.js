@@ -56,7 +56,7 @@ document.getElementById("holdBtn").addEventListener("click", function() {
     // Get final score value for checking winner
     finalScore = document.querySelector(".final-score").value;
     // before we change player, we will look for winning status
-    if (scores[currentPlayer - 1] >= 100) {
+    if (scores[currentPlayer - 1] >= finalScore) {
       currentTotal = 0;
       document.querySelector(`.player_${currentPlayer}_name`).textContent =
         "WINNER";
